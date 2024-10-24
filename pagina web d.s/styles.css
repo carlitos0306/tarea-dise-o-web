@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vector-premium/fondo-marca-neumatico-vehiculo-automotriz_710219-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+}
+
+header {
+    background: rgba(68, 68, 68, 0.9); /* Fondo oscuro con algo de transparencia */
+    color: #fff;
+    padding: 20px; /* Padding uniforme */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para darle profundidad */
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    margin-bottom: 15px; /* Espaciado entre el título y el menú */
+}
+
+.menu-principal {
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
+}
+
+.menu-principal ul {
+    list-style: none; /* Elimina puntos de la lista */
+    padding: 0; /* Elimina padding */
+}
+
+.menu-principal li {
+    display: inline; /* Elementos en línea */
+    margin: 0 20px; /* Espaciado aumentado */
+}
+
+.menu-principal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Negrita para resaltar */
+    font-size: 1.2em; /* Tamaño de fuente más grande para los enlaces */
+}
+
+.menu-principal a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Color diferente al pasar el ratón */
+}
+
+.contenido {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 200px;
+    background: rgba(51, 51, 51, 0.8); /* Fondo más oscuro */
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral li {
+    margin: 10px 0;
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-lateral a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: url('https://thumbs.dreamstime.com/b/nuevo-neumático-del-coche-en-un-fondo-negro-22061107.jpg') no-repeat center center; /* Fondo de la sección */
+    background-size: cover; /* Cubrir toda la sección */
+    border-radius: 5px;
+    color: aqua; /* Color del texto aqua para mejor legibilidad */
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+.producto {
+    border: 1px solid rgba(255, 255, 255, 0.7); /* Borde claro */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6); /* Fondo oscuro para productos */
+    transition: transform 0.2s; /* Suaviza el efecto al pasar el ratón */
+}
+
+.producto:hover {
+    transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
